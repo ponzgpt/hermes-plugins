@@ -3,7 +3,7 @@
 # Usage: ./scripts/deploy.sh <site>
 #
 # One site, one service, one Traefik file: deploying here cannot ship another
-# company's page, so two people (or two sessions) can work in this repo at once.
+# plugin's page.
 set -euo pipefail
 cd "$(git rev-parse --show-toplevel)"
 
